@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Web Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: #333;
+        }
+
+        #app-name {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ff6f61;
+        }
+
+        #description {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #666;
+        }
+
+        #cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 30px;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #cta-button:hover {
+            background-color: #ff5246;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 id="app-name">Welcome to the Web Application</h1>
+        <p id="description">Experience the future of the web.</p>
+        <button id="cta-button" onclick="startApp()">Get Started</button>
+    </div>
+
+    <script>
+        function startApp() {
+            alert("Let the fun begin!");
+        }
+    </script>
+</body>
+</html>
