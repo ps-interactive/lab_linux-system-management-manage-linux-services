@@ -1,0 +1,10 @@
+[Unit]
+Description=Web Application
+
+[Service]
+ExecStart=/usr/bin/env python3 -m http.server --bind 0.0.0.0 9090
+WorkingDirectory=/opt/web-application
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
