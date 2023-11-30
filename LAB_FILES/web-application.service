@@ -2,7 +2,7 @@
 Description=Web Application
 
 [Service]
-ExecStart=/usr/bin/env python3 -m http.server --bind 0.0.0.0 9090
+ExecStart=/usr/bin/env python3 -m http.server --bind 0.0.0.0
 WorkingDirectory=/opt/web-application
 Restart=always
 
